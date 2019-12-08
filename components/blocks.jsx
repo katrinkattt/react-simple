@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 // import Block from './block';
 
 var initialState = {
+    currentId:0,
     blockS:[
         {
             title:'commerce',
@@ -18,6 +19,7 @@ var initialState = {
     ]
 }
 
+var Blockss = document.getElementById('blockList')
 
 
 export default class Blocks extends Component {
@@ -26,7 +28,6 @@ export default class Blocks extends Component {
             <div  className="container container__first">
                 <div id="blockList"></div>
                 ${
-                var Blockk = document.getElementById('blockList')
                 function renderText(){
                     let innerContent = ''
                     initialState.blockS.map((orderObj, id) => {
@@ -44,12 +45,11 @@ export default class Blocks extends Component {
                         </div>
                         `
                         })
-                    Blockk.html(innerContent);
+                    Blockss.html(innerContent);
+                    renderText();
                     }
-                renderText();
                 }
             </div>
-
         )
     }
 }
