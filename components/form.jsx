@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import FormBlock from './formBlock';
 import BtnForm from './btn';
+// import { placeholder, labeledStatement } from '@babel/types';
 
 export default class Form extends Component {
     render(){
@@ -16,3 +17,4 @@ export default class Form extends Component {
         )
     }
 }
+// nado naverno sozdat' ekzemplyar class
