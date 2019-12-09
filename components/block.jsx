@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+
+
 const words = [
     {id:1, title:'text1', content:'slovaaa mnogo slov'},
     {id:2, title:'text2', content:'eche slova i eche'},
@@ -41,11 +43,16 @@ export default class Block extends Component {
             <div className="block_line">
                 <div className="block__one">
                     <div className="block__foto"></div>
-                    <div className="block__text">
-                        <RenderText words={words} />
-                    </div>
+                    <div key="title"className="block__title"></div>
+                    <div key="text" className="block__text"></div>
                 </div>
             </div>
         )
     }
 }
+
+
+
+
+
+
