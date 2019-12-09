@@ -8,15 +8,6 @@ code {
     monospace;
 }
 
-
-/* .conteiner{
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  font-size: 30px;
-} */
-
 section{
   height: 100%;
   width: 100%;
@@ -141,6 +132,28 @@ section{
   margin-bottom: 100px;
   margin-left: 60px;
 }
+.container__plane{
+  background-color: #fff;
+}
+.component__4{
+  height: 300px;
+  width: 400px;
+  margin: auto;
+  margin-top: 10px;
+  color: #1b1717;
+  font-weight: 700;
+}
+.img__content{
+  height: 220px;
+  width: 220px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-size: 50%;
+}
+.img__content img{
+  height: 100%;
+}
+
 
 footer{
   height: 250px;
