@@ -78,6 +78,21 @@ section{
 .nav_center{
   text-align: center !important;
 }
+.main__btn{
+  height: 80px;
+  width: 170px;
+  background-color: #dbf2fafa;
+  box-shadow: #1b1b1bd7 3px 4px 4px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 60%;
+  margin-top: 240px;
+  padding: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-weight: bolder;
+}
 .title__main{
   font-weight: bold;
   color: #2a069e;
