@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import Block from './block';
 
 
-
-// var Blockss = document.getElementById('blockList')
-
-
 export default class Blocks extends Component {
     initialState = {
         currentId:0,
@@ -28,7 +24,7 @@ export default class Blocks extends Component {
     render(){
         return(
             <div  className="container container__first">
-                <div className="title__main">Offers</div>
+                <div className="title__section">Offers</div>
                 <div className="blockLine col">
                 <div class="row align-items-center">
                     <div class="col">
