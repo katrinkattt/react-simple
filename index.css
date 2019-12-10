@@ -81,7 +81,7 @@ section{
 .main__btn{
   height: 80px;
   width: 170px;
-  background-color: #dbf2fafa;
+  background: linear-gradient(40deg, #2a069e, #0848f8);
   box-shadow: #0848f8 2px 2px 3px;;
   border-radius: 7px;
   position: absolute;
@@ -180,7 +180,6 @@ section{
 .img__content img{
   height: 100%;
 }
-
 
 footer{
   height: 250px;
