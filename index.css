@@ -76,30 +76,42 @@ section{
   width: 100%;
 }
 .nav_center{
-  text-align: center !important;
+  align-content: center !important;
 }
 .main__btn{
   height: 80px;
   width: 170px;
   background-color: #dbf2fafa;
-  box-shadow: #1b1b1bd7 3px 4px 4px;
-  border-radius: 10px;
+  box-shadow: #0848f8 2px 2px 3px;;
+  border-radius: 7px;
   position: absolute;
   z-index: 2;
   margin-left: 60%;
   margin-top: 240px;
   padding: 20px;
   text-align: center;
-  color: aliceblue;
+  text-decoration: none;
+  color: #2a069e;
+  font-size: 30px;
   font-weight: bolder;
 }
 .title__main{
+  font-weight: bolder;
+  color: #2a069e;
+  font-size: 70px;
+  text-shadow: #0848f8 2px 2px 3px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 10%;
+  margin-top: 240px;
+}
+.title__section{
   font-weight: bold;
   color: #2a069e;
   font-size: 40px;
   text-align: center;
   padding-top: 20px;
-  text-shadow: rgb(8, 72, 248) 2px 2px 3px;
+  text-shadow: #0848f8 2px 2px 3px;
 }
 .blocks{
   width: 100%;
