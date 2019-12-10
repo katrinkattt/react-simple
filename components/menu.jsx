@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Wallpaper  from './wallpaper';
+import MainBtn from './mainBtn';
 
 export default class Header extends Component {
     render(){
@@ -23,6 +24,7 @@ export default class Header extends Component {
         </header>
         <div className="conteiner">
             <Wallpaper  />
+            <MainBtn />
         </div>
         </div>
         )
