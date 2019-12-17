@@ -5,3 +5,4 @@ while I will only add the component code, when I finish I will put the build
 
 
 надо настроить рендеринг из массива
+пока это  самый рабочий вариант, если только за последнее время если учитывать
